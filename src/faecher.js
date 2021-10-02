@@ -4,13 +4,16 @@ import './faecher.css';
 function App() {
   return (
     <>
-
+      <div className="header">
+      <h1>Cyklops Fächer Website</h1>
+      </div>
       <div className="App">
-        <h1>Wähle das Fach aus</h1>
+        
         <header className="App-header">
+          <h1>Wähle das Fach aus:</h1>
           <button class="fächer" onclick="location.href='faecher/software'">Software</button>
           <button class="fächer" onclick="location.href='faecher/elektrotechnik'">Elektrotechnik</button>
-          <button class="fächer" onclick="location.href='faecher/betriebssystemenetzwerke'">Betriebssysteme/Netzwerke</button>
+          <button class="fächer" onclick="location.href='faecher/betriebssystemenetzwerke'">Betriebssysteme</button>
           <button class="fächer" onclick="location.href='faecher/datenbanken'">Datenbanken</button>
           <button class="fächer" onclick="location.href='faecher/webtechnologien'">Webtechnologien</button>
           <button class="fächer" onclick="location.href='faecher/medien'">Medien</button>
