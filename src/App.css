@@ -1,33 +1,36 @@
-.header {
+.header,
+Header {
   padding-bottom: 7%;
   color: rgba(0, 0, 0, 0.445);
 }
 
 .App,
-.header {
+.header,
+Header,
+.fächerliste {
   width: 60%;
   margin: 0 auto;
   text-align: center;
 }
 
-.fächer {
+
+.fächer
+ {
   width: 30%;
   background-color: rgba(43, 43, 43, 0.644);
-  border: none;
+  border-color: rgba(255, 0, 0, 0);
   color: rgba(255, 255, 255, 0.747);
-  padding: 15px;
-  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
   transition-duration: 0.4s;
   font-family: verdana, arial, helvetica;
   padding: 1.9em;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .fächer:hover {
   background-color: rgba(112, 112, 112, 0.5);
-  /* Green */
+  border-color:rgba(255, 255, 255, 0.055);
   color: white;
 }
